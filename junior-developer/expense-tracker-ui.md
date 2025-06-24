@@ -59,80 +59,10 @@ Use the provided mock data below to populate initial expenses. No need to persis
 - Basic usage guide
 
 ## Mock Data
+## API Endpoint
 
-```typescript
-const mockExpenses = [
-  {
-    id: "1",
-    description: "Grocery shopping at Whole Foods",
-    amount: 125.50,
-    category: "Food & Dining",
-    date: "2024-01-15"
-  },
-  {
-    id: "2",
-    description: "Monthly subway pass",
-    amount: 127.00,
-    category: "Transportation",
-    date: "2024-01-01"
-  },
-  {
-    id: "3",
-    description: "Winter jacket from REI",
-    amount: 189.99,
-    category: "Shopping",
-    date: "2024-01-10"
-  },
-  {
-    id: "4",
-    description: "Electric bill",
-    amount: 85.20,
-    category: "Bills & Utilities",
-    date: "2024-01-05"
-  },
-  {
-    id: "5",
-    description: "Coffee at Blue Bottle",
-    amount: 5.75,
-    category: "Food & Dining",
-    date: "2024-01-16"
-  },
-  {
-    id: "6",
-    description: "Movie tickets",
-    amount: 32.00,
-    category: "Entertainment",
-    date: "2024-01-13"
-  },
-  {
-    id: "7",
-    description: "Gas for car",
-    amount: 45.00,
-    category: "Transportation",
-    date: "2024-01-14"
-  },
-  {
-    id: "8",
-    description: "Phone bill",
-    amount: 65.00,
-    category: "Bills & Utilities",
-    date: "2024-01-08"
-  },
-  {
-    id: "9",
-    description: "Lunch with team",
-    amount: 68.50,
-    category: "Food & Dining",
-    date: "2024-01-12"
-  },
-  {
-    id: "10",
-    description: "New headphones",
-    amount: 149.99,
-    category: "Shopping",
-    date: "2024-01-07"
-  }
-];
+```
+GET https://api.jsonbin.io/v3/b/685aecb28960c979a5b0b51b
 ```
 
 ## Bonus Features (Optional)

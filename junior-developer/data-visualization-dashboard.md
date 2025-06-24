@@ -35,66 +35,11 @@ Include at least 2 different types of data visualizations using any charting lib
 - README with setup and run instructions
 - Note which charting library you chose and why
 
+## Mock Data
 ## API Endpoint
 
 ```
-GET https://api.jsonbin.io/v3/b/65b5f8b01f5677401f20d0cc
-```
-
-## Mock Data Structure
-
-If you prefer to work with local data instead of the API, here's the complete mock data:
-
-```typescript
-const mockSalesData = {
-  record: {
-    salesData: {
-      totalRevenue: 145670.50,
-      totalOrders: 342,
-      averageOrderValue: 425.35,
-      topProducts: [
-        { name: "Wireless Headphones", sales: 45000, units: 120 },
-        { name: "Smart Watch", sales: 38000, units: 95 },
-        { name: "Laptop Stand", sales: 22000, units: 220 },
-        { name: "USB-C Hub", sales: 18500, units: 185 },
-        { name: "Mechanical Keyboard", sales: 16000, units: 80 },
-        { name: "Webcam HD", sales: 12000, units: 100 },
-        { name: "Mouse Pad XXL", sales: 8500, units: 170 },
-        { name: "Cable Organizer", sales: 6200, units: 310 }
-      ],
-      monthlySales: [
-        { month: "Jan", revenue: 32000, orders: 75 },
-        { month: "Feb", revenue: 28000, orders: 68 },
-        { month: "Mar", revenue: 35000, orders: 82 },
-        { month: "Apr", revenue: 41000, orders: 97 },
-        { month: "May", revenue: 38500, orders: 91 },
-        { month: "Jun", revenue: 44000, orders: 104 },
-        { month: "Jul", revenue: 42000, orders: 99 },
-        { month: "Aug", revenue: 39000, orders: 92 },
-        { month: "Sep", revenue: 46000, orders: 108 },
-        { month: "Oct", revenue: 48500, orders: 114 },
-        { month: "Nov", revenue: 52000, orders: 122 },
-        { month: "Dec", revenue: 58670.50, orders: 138 }
-      ],
-      salesByCategory: [
-        { category: "Electronics", revenue: 95000, percentage: 65.2 },
-        { category: "Accessories", revenue: 28500, percentage: 19.6 },
-        { category: "Software", revenue: 12000, percentage: 8.2 },
-        { category: "Services", revenue: 10170.50, percentage: 7.0 }
-      ],
-      recentOrders: [
-        { id: "ORD-001", customer: "John Doe", amount: 299.99, status: "completed", date: "2024-01-16" },
-        { id: "ORD-002", customer: "Jane Smith", amount: 549.50, status: "processing", date: "2024-01-16" },
-        { id: "ORD-003", customer: "Bob Johnson", amount: 179.99, status: "completed", date: "2024-01-15" },
-        { id: "ORD-004", customer: "Alice Brown", amount: 899.00, status: "shipped", date: "2024-01-15" },
-        { id: "ORD-005", customer: "Charlie Wilson", amount: 125.75, status: "completed", date: "2024-01-14" }
-      ],
-      growthRate: 12.5,
-      conversionRate: 3.8,
-      customerSatisfaction: 4.6
-    }
-  }
-};
+GET https://api.jsonbin.io/v3/b/685aec708a456b7966b4f480
 ```
 
 ## Bonus Features (Optional)
